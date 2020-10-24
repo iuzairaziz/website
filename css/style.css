@@ -1,0 +1,87 @@
+@font-face {
+  font-family: oswald;
+  src: url("Oswald-VariableFont_wght.tff");
+}
+
+body {
+  font-family: oswald;
+}
+
+.topbar {
+  background: #353535;
+}
+.topbar ul {
+  float: right;
+  list-style-type: none;
+}
+.fa {
+  padding: 15px;
+  font-size: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-pinterest {
+  background: red;
+  color: white;
+}
+.fa-instagram {
+  background: blueviolet;
+  color: white;
+}
+.social-icons li a {
+  width: 42px;
+}
+.logo div h1 {
+  text-align: center;
+  font-size: 100px;
+}
+.lowbar {
+  background: #353535;
+}
+
+.lowbar li a {
+  font-size: 25px;
+  color: white;
+  font-weight: 600px;
+}
+
+.flash {
+  background-color: #f3ad29;
+}
+
+.flash a {
+  background-color: #f3ad29;
+  font-size: 25px;
+  color: white;
+}
+
+.aresnal p {
+  font-size: 20px;
+}
+.cards h4 {
+  font-size: 20px;
+}
+.row-UpperFotter {
+  background-color: #031c27;
+  font-size: 20px;
+}
+.row-UpperFotter a {
+  color: white;
+}
+
+.lower-fotter {
+  background-color: #000000;
+  color: beige;
+}

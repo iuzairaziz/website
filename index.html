@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sportelo by uzair</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row topbar">
+          <div class="col-12">
+            <ul class="list-inline social-icons m-0">
+              <li class="list-inline-item">
+                <a href="#" class="fa fa-facebook"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="fa fa-twitter"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="fa fa-pinterest"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="fa fa-instagram"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row logo">
+          <div class="col-12">
+            <h1>SPORTELO</h1>
+          </div>
+        </div>
+        <div class="row lowbar">
+          <div class="col-12">
+            <ul>
+              <li class="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Leaques</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Transfer News and Gossips</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">EDITORIAL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row mt-3">
+        <div class="col-2 flash"><a href="#">Flash Story</a></div>
+        <div class="col-10">
+          <ul class="list-unstyled aresnal">
+            <li>
+              <p>
+                Arsenal Thomas Partey meets teammates Pierre-Emerick Aubameyang,
+                Alexandre Lacazette, and Ian Right.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-6">
+          <h3>Main Story</h3>
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/neymar.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    Neymar Surpasses Ronaldo’s record to become Brazil’s
+                    second-highest goalscorer.
+                  </h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/luis.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    Luis Enrique backs David De Gea following criticism after
+                    Spain’s loss to Ukraine.
+                  </h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/ronaldo.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    Fernando Santos provides an update on Cristiano Ronaldo
+                    after testing positive for Covid-19
+                  </h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-3">
+          <h3>Editor's Pick</h3>
+          <div class="row">
+            <div class="col-12">
+              <div class="card bg-dark text-white">
+                <img src="images/gary.jpg" class="card-img" alt="..." />
+                <div class="card-img-overlay">
+                  <h5 class="card-title">
+                    Gary Neville blasts Manchester United Harry Maigure over the
+                    red card in England vs Denmark
+                  </h5>
+                  <p class="card-text">1 week ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-1">
+              <div class="card bg-dark text-white">
+                <img src="images/thomas.jpg" class="card-img" alt="..." />
+                <div class="card-img-overlay">
+                  <h5 class="card-title">
+                    Arsenal Thomas Partey meets teammates Pierre-Emerick
+                    Aubameyang, Alexandre Lacazette, and Ian Right.
+                  </h5>
+                  <p class="card-text">1 week ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <h3>Trending Stories</h3>
+          <div class="row">
+            <div class="col-12">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="images/roanldo 2.jpg"
+                      class="card-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="card-title">
+                        Fernando Santos provides an update on Cristiano Ronaldo
+                        after testing positive for Covid-19
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/neymar 2.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="card-title">
+                        Neymar Surpasses Ronaldo’s record to become Brazil’s
+                        second-highest goalscorer.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/luis 2.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="card-title">
+                        Luis Enrique backs David De Gea following criticism
+                        after Spain’s loss to Ukraine. 1 week ago Sportelo
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3 ml-3">
+        <h2>Featured Story</h2>
+      </div>
+      <div class="row mt-2 justify-content-around">
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/nugeria.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>
+                Top 10 Nigerian Footballers who chose to play for other
+                countries
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/robert.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Robert Lewandowski sets new goal Records</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/young.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Top ten Most valuable Young players in the world under 20</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/paul.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Top 7 Facts on Paul Pogba you may not know</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/primer.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>When will Premier League Resume? Amid the covid-19</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3 cards">
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/gary.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Gary Neville blasts Manchester United Harry Maigure over the red
+                card in England vs Denmark
+              </h4>
+              <p>Gary Neville blasted Manchester United Captain Harry Maigure after he was sent off in England 1-0 loss to Denmark in the UEFA Nations League.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/thomas.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Arsenal Thomas Partey meets teammates Pierre-Emerick Aubameyang,
+                Alexandre Lacazette, and Ian Right.
+              </h4>
+              <p>Arsenal new summer signing Thomas Partey received a rousing welcome from Pierre-Emerick Aubameyang, Alexandre Lacazette,</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/neymar.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Neymar Surpasses Ronaldo’s record to become Brazil’s
+                second-highest goalscorer.
+              </h4>
+              <p>Neymar became Brazil’s second-highest goal scorer as he netted a hat trick in Brazil 4-2…</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <h2>Recent Posts</h2>
+          <p>
+            <a href="#"
+              >Gary Neville blasts Manchester United Harry Maigure over the red
+              card in England vs Denmark</a
+            >
+          </p>
+          <p>
+            <a href="#" class="mt-1">
+              Arsenal Thomas Partey meets teammates Pierre-Emerick Aubameyang,
+              Alexandre Lacazette, and Ian Right.</a
+            >
+          </p>
+          <p>
+            <a href="#" class="mt-1">
+              Neymar Surpasses Ronaldo’s record to become Brazil’s
+              second-highest goalscorer.</a
+            >
+          </p>
+
+          <p>
+            <a href="#" class="mt-1"
+              >Luis Enrique backs David De Gea following criticism after Spain’s
+              loss to Ukraine.</a
+            >
+          </p>
+
+          <p>
+            <a href="#" class="mt-1"
+              >Fernando Santos provides an update on Cristiano Ronaldo after
+              testing positive for Covid-19</a
+            >
+          </p>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/luis.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Luis Enrique backs David De Gea following criticism after
+                Spain’s loss to Ukraine.
+              </h4>
+              <p>Luis Enrique has fired back at critics after  David De Gea was blamed for Spain…</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/ronaldo.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Fernando Santos provides an update on Cristiano Ronaldo after
+                testing positive for Covid-19
+              </h4>
+            <p>Portugal National team Coach Fernando Santos has reported that Cristiano Ronaldo is “doing fine” and…</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/kevin.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Manchester City handed Kevin de Bruyne Injury Scare ahead of
+                clash with Arsenal
+              </h4>
+        <p>Manchester City have been handed an Injury scare after their Star player Kevin De Bruyne…</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <h2>Preimere League</h2>
+          <img src="images/schedule.jpg" alt="" width="100%" />
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/ozil.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Mesut Ozil receives a massive £8m loyalty Bonus from Arsenal
+              </h4>
+              <p>Arsenal midfielder Mesut Ozil has reportedly received the sum of £8m in bonuses from the…</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/timo.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Timo Werner gives Chelsea concerns as he his ruled out of
+                Germany Match against Turkey
+              </h4>
+              <p>Chelsea forward Timo Werner has been ruled out of the Germany Friendly match against Turkey….</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 22rem">
+            <img src="images/edison.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>
+                Manchester United confirms the signing of PSG Star Edison Cavani
+                on transfer deadline day 3 weeks ago Sportelo
+              </h4>
+              <p>Manchester United transfer news: Manchester United on Monday night confirmed the arrival of Uruguay striker…</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <h4>Please Share</h4>
+          <ul class="list-inline social-icons m-0">
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-twitter"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-pinterest"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-instagram"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-5 ml-3">
+        <h2>You may have missed</h2>
+      </div>
+      <div class="row mt-2 justify-content-around">
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/gary.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>
+                Gary Neville blasts Manchester United Harry Maigure over the red card in England vs Denmark
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/thomas.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Arsenal Thomas Partey meets teammates Pierre-Emerick Aubameyang, Alexandre Lacazette, and Ian Right.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/neymar.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Neymar Surpasses Ronaldo’s record to become Brazil’s second-highest goalscorer.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/luis.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Luis Enrique backs David De Gea following criticism after Spain’s loss to Ukraine.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/ronaldo.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Fernando Santos provides an update on Cristiano Ronaldo after testing positive for Covid-19</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row-UpperFotter row">
+        <div class="col-12">
+          <ul class="float-left mt-1">
+            <li class="list-inline-item ">
+              <a href="#">Home</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">About Us</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Contact Us</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Copyright Statement</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">DMCA</a>
+            </li>
+          </ul>
+          <ul class="list-inline social-icons float-right">
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-twitter"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-pinterest"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-instagram"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     <div class="row">
+       <div class="col-12 lower-fotter ">
+         <p class="text-center mt-1">Copyright 2020© Sportelo. All rights reserved. | Made by Muhammad Uzair Aziz | SP18-BSE-061</p>
+        
+       </div>
+     </div>
+
+    </footer>
+  </body>
+</html>
